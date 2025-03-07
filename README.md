@@ -21,7 +21,7 @@ refer to [this page](https://github.com/raspberrypi/picotool). To get the whole 
 	picotool save -a test.bin
 ```
 
-That will copy the whole memory into the file `test.bin`, which will be processed afterwards.
+This will create the memory image of whole MCU and save it as file `test.bin`, which will be processed afterwards.
 
 ### Data Processing Unit
 
@@ -46,6 +46,6 @@ Plotting is managed via `gnuplot`. To install gnuplot on Debian based ditributio
 
 To generate graphs simply run
 ```sh
-	./gnuplot
+	./plot
 ```
 
